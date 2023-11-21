@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c0980574-871c-462a-8a52-b3db0b100470" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript-Okten.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hwjs1/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hwjs1/main.js" afterDir="false" />
-    </list>
+    <list default="true" id="c0980574-871c-462a-8a52-b3db0b100470" name="Changes" comment="full jsHW1 added" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,8 +42,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1700533303433</updated>
-      <workItem from="1700533305854" duration="2391000" />
+      <workItem from="1700533305854" duration="2778000" />
     </task>
+    <task id="LOCAL-00001" summary="full jsHW1 added">
+      <created>1700536012288</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1700536012288</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -67,5 +67,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="full jsHW1 added" />
+    <option name="LAST_COMMIT_MESSAGE" value="full jsHW1 added" />
   </component>
 </project>
