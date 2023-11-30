@@ -32,4 +32,4 @@ console.log('3.За допомогою оператора typeof визначи�
 console.log('3:');
 console.log(typeof a);
 console.log(typeof b);
-console.log(typeof c);
+console.log(typeof c); 
