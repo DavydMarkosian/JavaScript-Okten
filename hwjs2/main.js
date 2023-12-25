@@ -228,16 +228,19 @@ if (num1 === num2) {
 } else {
     console.log('error');
 }
-//- є змінна х, яка може прийняти будь-яке значення (стрінг, число, undefined, null  і тд включно).
-// Напишіть код який, за допомоги  оператора || буде присвоювати змінній х значення "default"  якщо значення
-// змінної х являється falsy (хибноподібні, тобто приводиться до false)
-console.log('10)')
+//- є змінна х, яка може прийняти будь-яке значення (стрінг, число, undefined, null
+// і тд включно).
+// Напишіть код який, за допомоги  оператора || буде присвоювати змінній х значення
+// "default"  якщо значення змінної х являється falsy (хибноподібні, тобто приводиться
+// до false)
+// console.log('10)')
 let y = '';
 y = y || 'default'
 console.log(y)
-//- з файлу arrays.js (лежить в папці 2023 plan ) взяти масив coursesAndDurationArray. За допомоги іф перевірити
-// кожен його елемент на тривалість навчання. У випадку якщо тривалість довша за 5 місяців вивести в консоль
-// "Супер".
+//- з файлу arrays.js (лежить в папці 2023 plan ) взяти масив coursesAndDurationArray.
+// За допомоги іф перевірити
+// кожен його елемент на тривалість навчання. У випадку якщо тривалість довша за
+// 5 місяців вивести в консоль "Супер".
 console.log('11)')
 let coursesAndDurationArray = [
     {title: 'JavaScript Complex', monthDuration: 5},
@@ -252,7 +255,6 @@ if (coursesAndDurationArray[0].monthDuration >= 5) {
 } else {
     console.log('you need more experience')
 }
-
 if (coursesAndDurationArray[1].monthDuration >= 5) {
     console.log('super')
 } else {
@@ -286,11 +288,18 @@ let coursesAndDurationArray1 = [
     {title: 'Java Complex', monthDuration: 6},
     {title: 'Python Complex', monthDuration: 6}
 ]
-let fitsForJob = coursesAndDurationArray1[0].monthDuration
-fitsForJob = (fitsForJob >=5) || 'not enough'
-console.log(fitsForJob)
+for (let duration of coursesAndDurationArray1) {
+    const res = duration.monthDuration >= 5 ? 'super' : 'not enough'
+    console.log(res)
+}
 
-//КАК БЕЗ IF И SWITCH ВЫВЕСТИ В КОНСОЛЬ НЕ 'TRUE',  А STRING ЗНАЧЕНИЕ(ИЛИ ЛЮБОЕ СВОЕ ЗНАЧЕНИЕ)???
+
+// let fitsForJob = coursesAndDurationArray1[0].monthDuration
+// fitsForJob = (fitsForJob >= 5) || 'not enough'
+// console.log(fitsForJob)
+
+//КАК БЕЗ IF И SWITCH ВЫВЕСТИ В КОНСОЛЬ НЕ 'TRUE',  А STRING ЗНАЧЕНИЕ
+// (ИЛИ ЛЮБОЕ СВОЕ ЗНАЧЕНИЕ)???
 
 // fitsForJob = coursesAndDurationArray1[1].monthDuration
 // fitsForJob = (fitsForJob >=5) || 'not enough'
@@ -298,3 +307,4 @@ console.log(fitsForJob)
 // fitsForJob = coursesAndDurationArray1[2].monthDuration
 // fitsForJob = (fitsForJob >=5) || 'not enough'
 // console.log(fitsForJob)
+
