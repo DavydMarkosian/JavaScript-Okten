@@ -220,7 +220,7 @@ for (const card of cards) {
 console.log(cards)
 
 //  - знайти піковий туз
-let findSpadeAce = cards.filter(card => {
+let findSpadeAce = cards.find(card => {
         return card.suit === 'spade' && card.valueC === 'ace'
     }
 )
