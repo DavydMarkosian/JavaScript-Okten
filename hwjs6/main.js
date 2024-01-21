@@ -130,16 +130,16 @@ console.log(toStr)
 // sortNums(nums,'ascending') // [3,11,21]
 // sortNums(nums,'descending') // [21,11,3]
 
-let nums = [11, 21, 3];
-let sort1 = nums.sort((a, b) => {
+let nums = [[11, 21, 3],'descending'];
+let sortNums = nums[0].sort((a, b) =>
+{ if (nums[1]==='ascending') {
     return a - b
-})
-console.log(sort1)
-
-let sort2 = nums.sort((a, b) => {
+}if (nums[1]==='descending'){
     return b - a
+}
 })
-console.log(sort2)
+console.log(sortNums)
+
 
 //.............................................................
 let coursesAndDurationArray = [
@@ -348,16 +348,16 @@ let coursesArray = [
 //взяти з arrays.js (який лежить в папці 2023 plan) масив coursesArray
 // --написати пошук всіх об'єктів, в який в modules є sass
 console.log(coursesArray);
-let findSass = coursesArray.filter (function (person){
-    if (person.modules.includes('sass')){
+let findSass = coursesArray.filter(function (person) {
+    if (person.modules.includes('sass')) {
         return person
     }
 })
 console.log(findSass)
 
 // --написати пошук всіх об'єктів, в який в modules є docker
-let findDocker = coursesArray.filter(person=>{
-    if (person.modules.includes('docker')){
+let findDocker = coursesArray.filter(person => {
+    if (person.modules.includes('docker')) {
         return person
     }
 })
